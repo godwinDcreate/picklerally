@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon: #D9FD16;
+  --color-neon-hover: #cbf013;
+  --color-navy: #0F172A;
+  --color-navy-dark: #090D16;
+  --color-navy-light: #1E293B;
+  --color-slate-bg: #F8FAFC;
+  --color-slate-border: #E2E8F0;
+  --font-sans: 'Helvetica Neue', Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Helvetica Neue', Arial, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+:root {
+  --neon: #D9FD16;
+  --navy: #0F172A;
+  --slate-bg: #F8FAFC;
+  --slate-border: #E2E8F0;
+  --text-main: #1E293B;
+  --text-muted: #64748B;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--slate-bg);
+  color: var(--text-main);
+  margin: 0;
+}
+
+/* Custom Professional Polish Utility Classes */
+.bg-neon {
+  background-color: #D9FD16;
+}
+
+.text-neon {
+  color: #D9FD16;
+}
+
+.border-neon {
+  border-color: #D9FD16;
+}
+
+.bg-navy {
+  background-color: #0F172A;
+}
+
+.text-navy {
+  color: #0F172A;
+}
+
+.border-navy {
+  border-color: #0F172A;
+}
+
+.badge-neon {
+  background-color: #D9FD16;
+  color: #0F172A;
+  font-weight: 800;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 4px 10px;
+  border-radius: 9999px;
+}
+
+.badge-navy {
+  background-color: #0F172A;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 4px 10px;
+  border-radius: 9999px;
+}
+
+.badge-outline {
+  border: 1px solid #E2E8F0;
+  color: #64748B;
+  background-color: #FFFFFF;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 4px 10px;
+  border-radius: 9999px;
+}
+
+.stat-box {
+  background-color: #0F172A;
+  color: #FFFFFF;
+  padding: 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.stat-box h4 {
+  margin: 0;
+  font-size: 11px;
+  opacity: 0.65;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.stat-box p {
+  margin: 6px 0 0;
+  font-size: 26px;
+  font-weight: 800;
+  color: #D9FD16;
+}
+
+.btn-primary {
+  background-color: #0F172A;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: all 0.15s ease-in-out;
+  border: 1px solid transparent;
+}
+
+.btn-primary:hover {
+  background-color: #1E293B;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.2);
+}
+
+.btn-secondary {
+  background-color: #D9FD16;
+  color: #0F172A;
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: all 0.15s ease-in-out;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #cbf013;
+  box-shadow: 0 4px 12px rgba(217, 253, 22, 0.3);
+}

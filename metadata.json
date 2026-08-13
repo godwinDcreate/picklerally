@@ -1,0 +1,6 @@
+{
+  "name": "PickleRally",
+  "description": "The ultimate pickleball game discovery, player matching, court finding, and community platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
